@@ -17,11 +17,9 @@ This is CAFFEMODEL based implementation of the project.
 
 # Installation of OpenCV:
 1. Here I have not used anaconda python distribution for the environment and hence I had to build the OpenCV package from the 
-source for the implementation of this project. Also, keep in mind creating a virtual environment for the installing the package
-separartely, which is rather prefferd over installing it directly on your system.
+source for the implementation of this project. Also, keep in mind creating a virtual environment for the installing the package separartely, which is rather prefferd over installing it directly on your system. Refer to the link mentioned below to build the package from the source:
 
-Refer to the link mentioned below to build the package from the source:
-* [Building OpenCV package from the source](https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/)
+[Building OpenCV package from the source](https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/)
 
 Once OpenCV and other dependencies are installed, you're good to go!
 
@@ -30,17 +28,17 @@ Once OpenCV and other dependencies are installed, you're good to go!
  
 > For face_detction_images file(Detecting faces in an image)
 
-'''
+```
 python face_detection_images.py --image IMAGE_NAME.jpg --prototxt deploy.prototxt \--model dnn_model.caffemodel
-'''
+```
 *Make sure the images are of type 'jpg'(any other format, even jpeg, will throw errors).
 *Also, make sure not to give any unnecesssary spaces in this command, as it may also throw some errors.
 
 > For face_detection_videos.py
 
-'''
+```
 python face_detection_videos.py --prototxt deploy.prototxt \--model dnn_model.caffemodel
-'''
+```
 
 *To stop detection process, hit 'x' key on your keyboard.
 
