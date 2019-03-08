@@ -22,7 +22,7 @@ source for the implementation of this project. Also, keep in mind creating a vir
 
 Once OpenCV and other dependencies are installed, you're good to go!
 
-2. Clone the project and put all the files in a separate folder in a directory.
+2. Clone the project and put all the files in a separate folder/directory.
 3. Open up the terminal on your Ubuntu machine, move to the directory in which your files are saved, and run the following commands:
  
 * For face_detction_images file(Detecting faces in an image)
