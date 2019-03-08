@@ -9,12 +9,12 @@
 
 This is CAFFEMODEL based implementation of the project.
 
-# Pre-requisites:
+# Pre-requisites
 * OpenCV (version 3.x or higher)
 * Caffemodel file, used for detection(provided in the uploaded files)
 * Deploy.prototxt file(provided in the uploaded files)
 
-# Installation of OpenCV:
+# Installation
 1. Here I have not used anaconda python distribution for the environment and hence I had to build the OpenCV package from the 
 source for the implementation of this project. Also, keep in mind creating a virtual environment for the installing the package separartely, which is rather prefferd over installing it directly on your system. Refer to the link mentioned below to build the package from the source:
 
