@@ -25,21 +25,21 @@ Once OpenCV and other dependencies are installed, you're good to go!
 2. Clone the project and put all the files in a separate folder in a directory.
 3. Open up the terminal on your Ubuntu machine, move to the directory in which your files are saved, and run the following commands:
  
-> For face_detction_images file(Detecting faces in an image)
+* For face_detction_images file(Detecting faces in an image)
 
 ```
 $python face_detection_images.py --image IMAGE_NAME.jpg --prototxt deploy.prototxt \--model dnn_model.caffemodel
 ```
-*Make sure the images are of type 'jpg'(any other format, even jpeg, will throw errors).
-*Also, make sure not to give any unnecesssary spaces in this command, as it may also throw some errors.
+> Make sure the images are of type 'jpg'(any other format, even jpeg, will throw errors).
+> Also, make sure not to give any unnecesssary spaces in this command, as it may also throw some errors.
 
-> For face_detection_videos.py
+* For face_detection_videos.py
 
 ```
 $python face_detection_videos.py --prototxt deploy.prototxt \--model dnn_model.caffemodel
 ```
 
-*To stop detection process, hit 'x' key on your keyboard.
+> To stop detection process, hit 'x' key on your keyboard.
 
 
 
