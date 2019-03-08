@@ -43,8 +43,11 @@ $python face_detection_videos.py --prototxt deploy.prototxt \--model dnn_model.c
 
 4. Voila! You just created a face detection model.
 
+# Results on test images
 
-
-
-
-
+![Test Image 1](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test.jpg)
+![Test Image 2](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test2.jpg)
+![Test Image 3](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test3.jpg)
+![Test Image 4](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test4.jpg)
+![Test Image 5](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test5.jpg)
+![Test Image 6](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/test6.jpg)
