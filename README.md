@@ -45,7 +45,7 @@ $python face_detection_videos.py --prototxt deploy.prototxt \--model dnn_model.c
 
 # Results on test images
 
-![](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/ss.png)
+![](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/ss1.png)
 
 ![](https://github.com/kgautam01/DNN-based-Face-Detection/blob/master/ss2.png)
 
