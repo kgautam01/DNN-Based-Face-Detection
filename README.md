@@ -10,6 +10,7 @@
 This is CAFFEMODEL based implementation of the project.
 
 # Pre-requisites
+* Python 3.6+
 * OpenCV (version 3.x or higher)
 * Caffemodel file, used for detection(provided in the uploaded files)
 * Deploy.prototxt file(provided in the uploaded files)
